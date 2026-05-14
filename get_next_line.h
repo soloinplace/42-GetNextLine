@@ -6,7 +6,7 @@
 /*   By: csodini <csodini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 18:18:53 by csodini           #+#    #+#             */
-/*   Updated: 2026/05/13 18:21:47 by csodini          ###   ########.fr       */
+/*   Updated: 2026/05/14 17:59:10 by csodini          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 char	*get_next_line(int fd);
 size_t	ft_strlen(char *s);
 char	*ft_strchr(char *s, int c);
-char	*ft_strjoin_free(char *stash, char *buffer);
-char	*ft_substr_gnl(char *s, size_t start, size_t len);
+char	*ft_strjoin_free(char *save, char *buffer);
+char	*ft_substr(char *s, size_t start, size_t len);
 
 #endif
